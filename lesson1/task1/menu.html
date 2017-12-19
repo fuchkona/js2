@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+<body>
+<div id="menu1"></div>
+
+
+<script src="js/Container.js"></script>
+<script src="js/Menu.js"></script>
+<script src="js/SubMenu.js"></script>
+<script src="js/MenuItem.js"></script>
+<script>
+    window.onload = function () {
+        var subMenu = new SubMenu('Подменю 1');
+        subMenu.id = 'subMenu1';
+        subMenu.cssClass = 'subMenu';
+        subMenu.items = [
+            new MenuItem('nik1', 'Элемент подменю 1'),
+            new MenuItem('nik1', 'Элемент подменю 2'),
+            new MenuItem('nik1', 'Элемент подменю 2'),
+            new MenuItem('nik1', 'Элемент подменю 3')
+        ];
+
+        var menu1 = new Menu('my', 'my', [
+            new MenuItem('', 'Главная страница'),
+            new MenuItem('about', 'О нас'),
+            new MenuItem('service', 'Услуги'),
+            subMenu,
+            new MenuItem('contacts', 'Контакты'),
+            new MenuItem('blog', 'Блог')
+        ]);
+
+        var menuApp = document.getElementById('menu1');
+        menuApp.innerHTML = menu1.render();
+        // Ставим задержку на 3 секунды чтобы увидеть что меню действительно было созданно до удаления.
+        setTimeout(function () {removeMenu(menu1);}, 3000);
+    };
+
+    function removeMenu(menu) {
+        menu.remove();
+    }
+</script>
+</body>
+</html>

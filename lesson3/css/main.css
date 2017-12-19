@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, serif;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 3px 3px lightgrey;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-info {
+    text-align: right;
+}
+
+.header-info a:hover {
+    color: gray;
+}
+
+.body {
+    padding: 15px;
+}
+
+.body-title {
+    margin: 15px 0;
+}
+
+textarea {
+    max-width: 100%;
+    width: 100%;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+input {
+    margin: 15px 0;
+    padding: 5px;
+    width: 50%;
+}
+
+.form-alert {
+    color: darkred;
+    margin: 5px 15px;
+}
