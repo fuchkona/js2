@@ -1,0 +1,18 @@
+{
+  "name": "lesson4",
+  "homepage": "https://github.com/nikita-gray/js2",
+  "authors": [
+    "Fuchko Nikita <fuchko.nikita@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
