@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+}
+
+.body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tabs-headers {
+    display: flex;
+}
+
+.tabs-headers > li {
+    list-style-type: none;
+    margin-right: 1px;
+    margin-bottom: -1px;
+}
+
+.tabs-header {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: inherit;
+    border: 1px solid gray;
+    border-bottom: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    user-select: none;
+}
+
+.tabs-header.active {
+    background-color: white;
+}
+
+.tabs-header:visited {
+    color: inherit;
+}
+
+.tabs-tab {
+    display: none;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+.tabs-tab.active {
+    display: block;
+}
+
+#contact-form {
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+textarea {
+    max-width: 100%;
+    width: 100%;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+input {
+    margin: 15px 0;
+    padding: 5px;
+    width: 50%;
+}
+
+.form-alert {
+    color: darkred;
+    margin: 5px 15px;
+}
+
+#countriesList {
+    position: absolute;
+    width: 50%;
+    margin-top: -15px;
+    border: 1px solid gray;
+}
+
+#countriesList:empty {
+    border: 0;
+}
+
+#countriesList > li {
+    list-style-type: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#countriesList > li:hover {
+    background-color: lightgrey;
+}
