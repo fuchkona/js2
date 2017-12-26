@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+}
+
+.body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#contact-form {
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+textarea {
+    max-width: 100%;
+    width: 100%;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+input {
+    margin: 15px 0;
+    padding: 5px;
+    width: 50%;
+}
+
+.form-alert {
+    color: darkred;
+    margin: 5px 15px;
+}
+
+#countriesList {
+    position: absolute;
+    width: 50%;
+    margin-top: -15px;
+    border: 1px solid gray;
+}
+
+#countriesList:empty {
+    border: 0;
+}
+
+#countriesList > li {
+    list-style-type: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#countriesList > li:hover {
+    background-color: lightgrey;
+}
+
+.carousel-container {
+    padding: 15px 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.product-c img {
+    width: 90%;
+}
+
+.product-c-text {
+    padding: 5px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    background-color: white;
+}
+
+.product > img {
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+.product-text {
+    border-top: 1px solid lightgrey;
+    padding-top: 5px;
+}
+
+.cart {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-height: 200px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
