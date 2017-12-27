@@ -1,4 +1,4 @@
-
+lesson7/node_modules
 lesson3/.idea/deployment.xml
 lesson3/.idea/workspace.xml
 lesson3/.idea/workspace.xml
@@ -10,3 +10,6 @@ lesson3/.idea/workspace.xml
 lesson4/.idea/lesson4.iml
 >>>>>>> f6264eacd509c04b257f232b867f14e8389b9800
 .idea/js2.iml
+*.zip
+lesson7/.idea/lesson6.iml
+lesson7\node_modules
